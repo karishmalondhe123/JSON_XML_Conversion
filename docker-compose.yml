@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  service_encrypt:
+    build: ./FolderAssignment1
+    volumes:
+      - /var/lib/docker/volumes/jsontoxmlvolume/_data:/home/EncryptedFiles/XMLFileEncryptedOutput
+
+  service_decrypt:
+    build: ./FolderAssignment2
+    volumes:
+      - /var/lib/docker/volumes/jsontoxmlvolume/_data:/home/XMLFileInput
+      - /var/lib/docker/volumes/xmldecryptvolume/_data:/home/Outpufiles/XMLFileDecryptedOutput
+

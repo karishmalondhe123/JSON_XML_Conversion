@@ -1,0 +1,18 @@
+{
+    "Country": {
+        "Country": [
+            {
+                "name": "India",
+                "Continent": "Asia"
+            },
+            {
+                "name": "Australia",
+                "Continent": "Australia"
+            },
+            {
+                "name": "South Africa",
+                "Continent": "Africa"
+            }
+        ]
+    }
+}
