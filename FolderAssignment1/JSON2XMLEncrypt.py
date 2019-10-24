@@ -1,3 +1,9 @@
+#######################################################################################
+#Purpose: This script will be executed using a Dockerfile stored at the same folder. Convert all the json files into XML and encrypt the same.
+#The output of these files (i.e. Encrypted-XML) will be stored in the first container and will be transferred to another container using volume mounts with docker compose.
+#Created By: Karishma Londhe (londhe.karishma61@gmail.com)
+#######################################################################################
+
 ## Import the required libraries
 from json2xml import json2xml, readfromurl, readfromstring, readfromjson
 import os

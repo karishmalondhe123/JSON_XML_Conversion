@@ -1,3 +1,8 @@
+#######################################################################################
+#Purpose: Convert all the Encypted-XML files stored into the volume mounted and convert it again into decrypted form. Hence, maintaing the privacy and security of the data.
+#Created By: Karishma Londhe (londhe.karishma61@gmail.com)
+#######################################################################################
+
 ## Import the required libraries
 import json
 import os
